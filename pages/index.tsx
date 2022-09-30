@@ -1,8 +1,9 @@
-import NavBar from "../components/Navbar";
+import Seo from "../components/Seo";
 
 function Home() {
   return (
     <div>
+      <Seo title="Home" />
       <h1 className="active">Hello</h1>
     </div>
   );
